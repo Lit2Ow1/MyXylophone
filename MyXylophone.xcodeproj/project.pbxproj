@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8827B50A2987F50100ED31CD /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 8827B5092987F50100ED31CD /* Sounds */; };
 		885013F02987B35600C50E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885013EF2987B35600C50E97 /* AppDelegate.swift */; };
 		885013F22987B35600C50E97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885013F12987B35600C50E97 /* SceneDelegate.swift */; };
 		885013F42987B35600C50E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885013F32987B35600C50E97 /* ViewController.swift */; };
 		885013F72987B35600C50E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885013F52987B35600C50E97 /* Main.storyboard */; };
 		885013F92987B35800C50E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885013F82987B35800C50E97 /* Assets.xcassets */; };
 		885013FC2987B35800C50E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885013FA2987B35800C50E97 /* LaunchScreen.storyboard */; };
-		885014042987B39A00C50E97 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 885014032987B39A00C50E97 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8827B5092987F50100ED31CD /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		885013EC2987B35600C50E97 /* MyXylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyXylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		885013EF2987B35600C50E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		885013F12987B35600C50E97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		885013F82987B35800C50E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885013FB2987B35800C50E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		885013FD2987B35800C50E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		885014032987B39A00C50E97 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 		885013EE2987B35600C50E97 /* MyXylophone */ = {
 			isa = PBXGroup;
 			children = (
+				8827B5092987F50100ED31CD /* Sounds */,
 				885013EF2987B35600C50E97 /* AppDelegate.swift */,
 				885013F12987B35600C50E97 /* SceneDelegate.swift */,
 				885013F32987B35600C50E97 /* ViewController.swift */,
@@ -65,7 +66,6 @@
 				885013F82987B35800C50E97 /* Assets.xcassets */,
 				885013FA2987B35800C50E97 /* LaunchScreen.storyboard */,
 				885013FD2987B35800C50E97 /* Info.plist */,
-				885014032987B39A00C50E97 /* Sounds */,
 			);
 			path = MyXylophone;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 			files = (
 				885013FC2987B35800C50E97 /* LaunchScreen.storyboard in Resources */,
 				885013F92987B35800C50E97 /* Assets.xcassets in Resources */,
-				885014042987B39A00C50E97 /* Sounds in Resources */,
+				8827B50A2987F50100ED31CD /* Sounds in Resources */,
 				885013F72987B35600C50E97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

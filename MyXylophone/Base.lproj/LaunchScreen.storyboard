@@ -19,15 +19,18 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="K3l-Sh-oaL">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lit2Ow1Logo" translatesAutoresizingMaskIntoConstraints="NO" id="wY3-jk-nnl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lit2Ow1Logo" translatesAutoresizingMaskIntoConstraints="NO" id="wY3-jk-nnl">
                                 <rect key="frame" x="60" y="326" width="272" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="K3l-Sh-oaL" secondAttribute="bottom" id="7wz-Xs-Xnt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wY3-jk-nnl" secondAttribute="bottom" constant="292" id="DZL-Ia-pVn"/>
+                            <constraint firstItem="wY3-jk-nnl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Nob-EK-P3E"/>
+                            <constraint firstItem="wY3-jk-nnl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="267" id="QeP-sO-dmZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wY3-jk-nnl" secondAttribute="trailing" constant="61" id="s2R-O5-qvP"/>
                             <constraint firstAttribute="trailing" secondItem="K3l-Sh-oaL" secondAttribute="trailing" id="suA-lJ-1nz"/>
                             <constraint firstItem="K3l-Sh-oaL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="vRg-eB-u2s"/>
                             <constraint firstItem="K3l-Sh-oaL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yDr-c0-ZeT"/>
