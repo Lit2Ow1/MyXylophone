@@ -17,13 +17,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
  
-        
-     @IBAction func keyPressed(_ sender: UIButton) {
-     
-     
+    
+    @IBAction func keyPressed(_ sender: UIButton) {
+    
         playSound(soundName: sender.currentTitle!)
-        
-        sender.alpha = 0.5
+                sender.alpha = 0.5
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             sender.alpha = 1.0
         }
